@@ -1,5 +1,11 @@
 # Vue.js
 
+1. About Vue.js
+2. Basic
+3. Component
+4. Webpack & vuex
+5. Help me
+
 ## What is Vue.js
 - focused on the view layer only
 - easy to pick up and integrate with other libraries or existing projects
