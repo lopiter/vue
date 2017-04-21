@@ -15,7 +15,12 @@
     <div id="example">
         <my-component></my-component>
         <my-component2></my-component2>
+        <my-component3></my-component3>
     </div>
+    <template id="mytemplate">
+        <div>ttt
+            <div>
+    </template>
 </body>
 <script>
     Vue.component('my-component', {
@@ -24,15 +29,20 @@
 
     Vue.component('my-component2', {
         template: '<span>{{ message }}</span>',
-        data : function(){
-            return {message : "my message"}
+        data: function () {
+            return { message: "my message" }
         }
-    })    
+    })
+
+    Vue.component('my-component3', {
+        template: '#mytemplate'
+    })
 
     // create a root instance
     new Vue({
         el: '#example'
     })
+
 </script>
 <html>
 ```
