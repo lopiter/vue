@@ -140,6 +140,10 @@
 
 - complicate data binding
 
+![event](./complicate.png)
+
+Son -> Father -> GrandFather -> Mom -> Daughter
+
 - vuex
 
 ![event](./vuex.png)
