@@ -31,9 +31,9 @@
 - Learning Curve
 
 
-```
-"Even without TypeScript, Angular's Quickstart guide starts out with an app that uses ES2015 JavaScript, NPM with 18 dependencies, 4 files, and over 3,000 words to explain it all - just to say Hello World."
-```
+
+>"Even without TypeScript, Angular's Quickstart guide starts out with an app that uses ES2015 JavaScript, NPM with 18 dependencies, 4 files, and over 3,000 words to explain it all - just to say Hello World."
+
 
 ```html
 <script src="https://unpkg.com/vue/dist/vue.js"></script>

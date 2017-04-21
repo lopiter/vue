@@ -3,7 +3,7 @@
 ## Components
 
 ### Basic
-
+(08.Component.html)
 ```html
 <html>
 
@@ -16,8 +16,6 @@
         <my-component></my-component>
         <my-component2></my-component2>
     </div>
-
-
 </body>
 <script>
     Vue.component('my-component', {
@@ -138,7 +136,7 @@
 <html>
 ```
 
-### RealWorld
+### With Vue File
 
 - complicate data binding
 
